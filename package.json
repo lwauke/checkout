@@ -4,8 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js"
   },
+  "lint-staged": {
+		"*.js": "eslint --fix"
+	},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lwauke/checkout.git"
@@ -16,5 +19,13 @@
   "bugs": {
     "url": "https://github.com/lwauke/checkout/issues"
   },
-  "homepage": "https://github.com/lwauke/checkout#readme"
+  "homepage": "https://github.com/lwauke/checkout#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.11.0",
+    "lint-staged": "^10.4.2",
+    "nodemon": "^2.0.5"
+  }
 }
