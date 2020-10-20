@@ -1,0 +1,14 @@
+.card-section {
+	background: #DE4B4B;
+	color: #fff;
+	display: inline-block;
+	min-height: 100vh;
+	padding-left: 64px;
+	&__link {
+		margin-top: 55px;
+		display: block;
+	}
+	&__subtitle {
+		margin: 50px 0 31px 0;
+	}
+}

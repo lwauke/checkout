@@ -8216,8 +8216,19 @@ var reactDom = createCommonjsModule(function (module) {
   }
 });
 
-function Index() {
-  return /*#__PURE__*/react.createElement("div", null, "teste");
-}
-reactDom.render( /*#__PURE__*/react.createElement(Index, null), document.getElementById("root"));
+var CardSection = (function () {
+  return /*#__PURE__*/react.createElement("section", {
+    className: "card-section"
+  }, "coluna esquerda");
+});
+
+var Checkout = function Checkout() {
+  return /*#__PURE__*/react.createElement("main", null, /*#__PURE__*/react.createElement(CardSection, null));
+};
+
+var Index = function Index() {
+  return /*#__PURE__*/react.createElement("div", null, /*#__PURE__*/react.createElement(Checkout, null));
+};
+
+reactDom.render( /*#__PURE__*/react.createElement(Index, null), document.getElementById('root'));
 //# sourceMappingURL=bundle.js.map

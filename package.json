@@ -45,6 +45,7 @@
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "redux": "^4.0.5",
-    "rollup": "^2.32.0"
+    "rollup": "^2.32.0",
+    "rollup-plugin-scss": "^2.6.1"
   }
 }

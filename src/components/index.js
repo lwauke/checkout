@@ -1,11 +1,13 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Checkout from './checkout'
+import './index.scss'
 
 const Index = () => (
 	<div>
-		teste hey
+		<Checkout />
 	</div>
 );
 
-ReactDOM.render(<Index />, document.getElementById("root"));
+ReactDOM.render(<Index />, document.getElementById('root'));
 

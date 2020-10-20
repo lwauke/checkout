@@ -1,0 +1,17 @@
+@import './checkout/card-section/index';
+@import './checkout/card/index';
+
+body, html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
