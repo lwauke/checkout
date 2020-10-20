@@ -2,7 +2,7 @@ import React from 'react';
 import CardSection from './card-section';
 
 const Checkout = () => (
-	<main>
+	<main className='main'>
 		<CardSection />
 	</main>
 );
